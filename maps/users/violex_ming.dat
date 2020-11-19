@@ -1,0 +1,18 @@
+make_user(
+    'Violex Ming',     # name
+    [                   # reviews
+        # Northside restaurants
+        make_review('La Val\'s Pizza', 4.0),
+        # Westside restaurants
+        make_review('The Sunny Side Caf\u00e9', 2.5),
+        # Other
+        make_review('Golden Bear Cafe', 1.0),
+        make_review('Kimchi Garden', 4,0),
+        make_review('International House Cafe', 4.0),
+        make_review('Crossroads', 0.0),
+        make_review("Gypsy's Trattoria Italiano", 5.0),
+        make_review('Pho K & K', 0.0),
+        make_review('Pasta Bene', 4.5),
+        make_review('Thai Noodle II', 4.5)
+    ]
+)
